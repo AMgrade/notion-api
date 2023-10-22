@@ -1,0 +1,21 @@
+{
+    "name": "amgrade/notion-api",
+    "description": "PHP client for interaction with Notion API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Borzyonok",
+            "email": "dima.matters@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "mcmatters/ticl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AMgrade\\NotionApi\\": "src/"
+        }
+    }
+}
