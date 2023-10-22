@@ -30,6 +30,7 @@ class NotionClient
                 'Content-Type' => 'application/json',
                 'Notion-Version' => $version,
             ],
+            'empty_json_as_empty_string' => true,
         ]);
     }
 
